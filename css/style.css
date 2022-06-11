@@ -1,0 +1,836 @@
+*{
+margin: 0;
+padding:0 ;
+--main-font-size:16px;
+--font-weight: 5px;
+--box-sizing:border-box;
+--soft-grey-color: #dcdde1;
+--white-color:white;
+--fushia-color:#e84393;
+--black-color:black; 
+--purple-color:rgb(255,0, 255,0.3);
+--middel-grey-color:#747d8c;
+--smoked-black:#4b4b4b;
+--fuchsia-color2:fuchsia;
+--footer-links-color:rgba(247, 241, 227,1.0);
+box-sizing: border-box;
+}
+
+
+body{
+
+    background-color:var(--white-color);
+    font-family: sans-serif;
+    font-size: 16 px;
+
+}
+     /*                            start Top NAV BAR with search box                            */
+.top-navbar{
+width: auto;
+height: 60px;
+
+background-color:rgba(236, 240, 241,1.0);
+color:var(--soft-grey-color);
+
+padding-left: 5%;
+
+padding-right: 5%;
+
+
+}
+
+.navbar ul .nav-item .nav-icon  {
+
+    color:var(--fushia-color);
+}
+
+.search-all{
+    margin-left: 35%;
+    margin-top: 2%;
+    color: var(--soft-grey-color);
+}
+.seaerch-b {
+    margin: 200px auto;
+    width:100px;
+    height: 20px
+  }
+  
+  /* The point of this tutorial is here */
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    width: 30%;
+    padding: 10px 35px 10px 15px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+
+
+
+
+
+/* .search-box{
+    width: 30%;
+    margin: auto;
+color:var(--soft-grey-color);
+    font-weight: lighter;
+    
+}
+
+.search-box .fnav{
+
+    color:var(--soft-grey-color); 
+}
+
+.container .sicon{
+ margin-left: 85%;
+margin-top: -6%;
+margin-right: 500px;
+font-weight: lighter;
+color:var(--soft-grey-color);
+}
+
+.container .line{  
+    
+margin-left:85%;
+margin-top:-8%;
+font-size:20px;
+padding-left:9px;
+font-weight:lighter;
+color:var(--soft-grey-color);
+
+} */
+
+/*                            End Top NAV BAR with search box                            */
+
+/*                            start Logo Nav Bar                           */
+.logo-navbar {
+
+width: 100%;
+height: 80px;
+background-color:black;
+
+}
+
+.logo-navbar   .Fashion-logo{
+font-size:40px;
+font-family:"Brush Script MT";
+}
+
+.hnav-item :hover
+{
+color:var(--fushia-color) !important;
+transition-duration: 0.3s;
+
+}
+
+/*                            End Logo Nav Bar                           */
+
+
+   /*                            start Slider Section                             */
+.header-slider-para-caption {
+width: 40%;
+height: 30%;
+
+background-color:var(--purple-color);
+margin-top:60px;
+
+padding-top: 25px;
+
+}
+
+.header-slider-para-caption p1{
+
+    color:var(--white-color);
+    font-size:25px;
+    font-family:Copperplate Gothic Bold;
+}
+
+.header-slider-para-caption  p2 {
+
+    color:var(--white-color);
+    font-size:50px;
+    font-family:Berlin Sans FB Demi;
+
+}  
+
+             /*                            End Slider Section                             */
+
+             /*                            start Middel New Trend Section                             */
+
+.middel-trend-section{
+margin-left:15%;
+
+}
+
+.grid-container {  display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr  1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: dense;
+    justify-content:center;
+    align-content:center;
+    grid-template-areas:
+      "trend-card upper-trend-img"
+      "trend-card lower-trend-img";
+    width: 80%;
+    height: 30%;
+    
+    
+  }
+  
+
+
+  .trend-card {
+    justify-self: stretch;
+    align-self: stretch;
+    grid-area: trend-card;
+    
+  
+  }
+
+
+  .upper-trend-img {
+    justify-self: stretch;
+    align-self: stretch;
+    grid-area: upper-trend-img;
+
+
+    
+  }
+  
+  .lower-trend-img {
+    justify-self: stretch;
+    align-self: stretch;
+    grid-area: lower-trend-img;
+    
+  }
+  
+.middel-trend-section .trend-card .trend-body .trend-title1{
+
+    color:var(--fushia-color);
+    font-family: Copperplate Gothic Light;
+}
+  
+.middel-trend-section .trend-card .trend-body .trend-text{
+
+    color:var(--middel-grey-color);
+    font-size: 13px;
+}
+  
+.middel-trend-section .trend-card .trend-body .btn-trend{
+color:var(--middel-grey-color);
+    border: 1px solid var(--middel-grey-color);
+    font-size: 15px;
+    
+    padding: 7px 26px;
+}
+
+
+.left-trend .upper-trend-img {
+    width: 100%;
+    height:100%;
+}
+
+.left-trend .deschov .btn-upper{
+
+width: 200px;
+
+border: 2px solid  var(--white-color);
+color: var(--white-color);
+
+}
+
+.left-trend .deschov{
+background-color:var(--middel-grey-color);
+color:var(--white-color);
+margin:-66% 0;
+width: 100%;
+height:100%;
+
+opacity:0%;
+
+}
+
+.left-trend  .deschov:hover{
+   
+opacity:40%;
+transition: all .5s ease-in-out;
+
+
+}
+
+
+                                   /*                        End Middel New Trend Section            */
+
+
+
+                                  /*                        start featured items section           */
+
+.featured-section{
+    width: 80%;
+    height:40%;
+}
+
+
+h3 {
+display: flex;
+flex-direction: row;
+}
+h3:before,
+h3:after {
+content: "";
+flex: 1 1;
+border-top: 2px solid #b2bec3;
+ border-bottom: 2px solid #b2bec3;
+margin: auto;
+}
+
+
+ .feature-navbar-links .feature-navbar-items{
+    color:var(--smoked-black);
+    font-size: 23px;
+}
+
+ .feature-navbar-links .feature-navbar-items .link-color:hover{
+
+color:var(--fushia-color);
+text-decoration: underline;
+text-decoration-color: var(--smoked-black);
+font-weight: bold;
+}
+
+.feature-items-album-img1  .img-text{
+width: 25%;
+height:5%;
+background-color: var(--black-color);
+color:var(--white-color);
+font-size: 15px;
+
+}
+
+
+/*                   start pink circle for pic 3,5      */
+
+.feature-items-album-img3  .pink-block ,.feature-items-album-img5  .pink-block {
+    border: 1px solid var(--fuchsia-color2);
+    text-align: center;
+    vertical-align: middle;
+}
+.feature-items-album-img3  .pink-circle , .feature-items-album-img5  .pink-circle{
+    background: var(--fuchsia-color2);
+    border-radius: 100px;
+    color: white;
+    height: 60px;
+    margin: 30px 15px;
+   font-size: 15px;
+   font-weight: bold;
+    width: 60px;
+    display: table;
+}
+
+
+
+.feature-items-album-img3  .pink-circle .circle-p  ,.feature-items-album-img5  .pink-circle .circle-p {
+    vertical-align: middle;
+    display: table-cell;
+    color:var(--white-color);
+}
+
+/*                   End pink circle for pic 3,5      */
+
+
+  /*              star eye icon block with hover    */
+.feature-items-album-img7  .eye-block{
+    border: 1px solid var(--black-color);
+    text-align: center;
+    vertical-align: middle;
+}
+ .feature-items-album-img7  .eye-circle{
+    background: var(--black-color);
+    border-radius: 100px;
+    color: white;
+    height: 70px;
+    margin: 50% 40%;
+   font-size: 15px;
+   font-weight: bold;
+    width: 70px;
+    display: table;
+}
+
+.feature-items-album-img7  .eye-circle .circle-icon {
+    vertical-align: middle;
+    display: table-cell;
+    color:var(--white-color);
+    padding:30% 25%;
+    
+}
+
+.feature-items-album-img7  .fdesc{
+
+    background-color:var(--smoked-black);
+   
+  
+    width: 100%;
+   height: 72%;
+    
+    opacity:0;
+}
+   
+
+.feature-items-album-img7  .fdesc:hover{
+
+    background-color:var(--smoked-black);
+   
+  
+    width: 100%;
+   height: 72%;
+    
+    opacity:0.6;
+}
+
+/*                  End eye icon block with hover     */
+
+
+
+
+/*                        End featured items section           */
+
+
+                            /*  Start Off section*/
+
+.row {
+display: flex;
+}
+
+.column {
+flex: 33.33%;
+padding: 5px 0;
+}                     
+
+                            
+.off-right-para    .right-parag{
+
+padding-top: 15%;
+padding-left: 20%;
+color:var(--white-color);
+font-size: 40px;
+
+}
+
+.off-left-para   .left-parag{
+
+padding-top: 13%;
+padding-left: 50%;
+color:var(--white-color);
+
+font-size: 40px;
+
+
+}
+
+.off-left-para .left-parag .rot-off{
+
+display: inline-block;
+margin-left: -30px; 
+transform-origin: 45% 40%;
+transform: rotate(-90deg);
+    
+}
+
+                            /* End Off section*/
+
+
+                            /* Start Trending Items */
+
+.featured-section{
+width: 80%;
+height:40%;
+}
+                            
+                            
+h3 {
+display: flex;
+flex-direction: row;
+}
+h3:before,
+h3:after {
+content: "";
+flex: 1 1;
+border-top: 2px solid #b2bec3;
+border-bottom: 2px solid #b2bec3;
+margin: auto;
+}
+                            
+
+
+
+ .feature-navbar-links .feature-navbar-items{
+    color:var(--smoked-black);
+    font-size: 23px;
+}
+
+ .feature-navbar-links .feature-navbar-items .link-color:hover{
+
+color:var(--fushia-color);
+text-decoration: underline;
+text-decoration-color: var(--smoked-black);
+font-weight: bold;
+}
+
+.feature-items-album-img1  .img-text{
+width: 25%;
+height:5%;
+background-color: var(--black-color);
+color:var(--white-color);
+font-size: 15px;
+
+}
+
+
+/*                   start pink circle for pic 3,5      */
+
+.feature-items-album-img3  .pink-block ,.feature-items-album-img5  .pink-block {
+    border: 1px solid var(--fuchsia-color2);
+    text-align: center;
+    vertical-align: middle;
+}
+.feature-items-album-img3  .pink-circle , .feature-items-album-img5  .pink-circle{
+    background: var(--fuchsia-color2);
+    border-radius: 100px;
+    color: white;
+    height: 60px;
+    margin: 30px 15px;
+   font-size: 15px;
+   font-weight: bold;
+    width: 60px;
+    display: table;
+}
+
+
+
+.feature-items-album-img3  .pink-circle .circle-p  ,.feature-items-album-img5  .pink-circle .circle-p {
+    vertical-align: middle;
+    display: table-cell;
+    color:var(--white-color);
+}
+
+/*                   End pink circle for pic 3,5      */
+
+
+  /*              star eye icon block with hover    */
+.feature-items-album-img7  .eye-block{
+    border: 1px solid var(--black-color);
+    text-align: center;
+    vertical-align: middle;
+}
+ .feature-items-album-img7  .eye-circle{
+    background: var(--black-color);
+    border-radius: 100px;
+    color: white;
+    height: 70px;
+    margin: 50% 40%;
+   font-size: 15px;
+   font-weight: bold;
+    width: 70px;
+    display: table;
+}
+
+.feature-items-album-img7  .eye-circle .circle-icon {
+    vertical-align: middle;
+    display: table-cell;
+    color:var(--white-color);
+    padding:30% 25%;
+    
+}
+
+.feature-items-album-img7  .fdesc{
+
+    background-color:var(--smoked-black);
+   
+  
+    width: 100%;
+   height: 72%;
+    
+    opacity:0;
+}
+   
+
+.feature-items-album-img7  .fdesc:hover{
+
+    background-color:var(--smoked-black);
+   
+  
+    width: 100%;
+   height: 72%;
+    
+    opacity:0.6;
+}
+
+ .load{
+    margin:0 40%;
+ }
+.load .load-btn {
+width: 170px;
+height: 40px;
+    background-color: white;
+    color: black;
+    
+   
+
+}
+
+
+                            /*      End Trending Items*/
+                            /* Start load more button */
+
+.more {
+display: none;
+}                
+
+.loadmoreless {
+margin:0 40% ;
+width: 200px;
+border:2px solid var(--smoked-black);
+padding: 10px 25px;
+font-size: 16px;
+cursor: pointer;
+color:var(--smoked-black);
+border-radius: 4px;
+background-color:var(--white-color);
+}
+
+                            /* End load more button */
+
+                          /* Start CEO Section */
+
+
+
+.ceo{
+   
+    height: 100%;
+   
+
+    
+   }
+
+
+.overlay {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:83vh;
+    background: rgba(0, 0, 0, 0.4);
+    /* border:2px solid red; */
+     background-size: cover;
+   }
+
+.ceo   .content-txt{
+top:15%;
+justify-content: center;
+color: var(--white-color);
+text-align: center;
+
+}
+
+.ceo .content-txt .qoute-icon {
+    margin-bottom: 60px;
+    
+
+}
+
+                          /* End CEO Section */
+                          /* Start Latest Blog section */
+
+
+.latest-blog{
+width: 80%;
+height:40%;
+}
+                            
+                            
+h3 {
+display: flex;
+flex-direction: row;
+}
+h3:before,
+h3:after {
+content: "";
+flex: 1 1;
+border-top: 2px solid #b2bec3;
+border-bottom: 2px solid #b2bec3;
+margin: auto;
+}
+                            
+
+.latest-blog  .row .btn-blog{
+
+width: 150px;
+
+border: 1px solid black;
+
+border-radius: none;
+}
+
+.latest-blog  .row .blog-para{
+
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+color:var(--middel-grey-color);
+
+
+}
+
+
+.latest-blog  .row   .card-title {
+
+    font-family:Copperplate Gothic Bold;
+
+
+}
+#more1 {display: none;}
+
+#more2 {display: none;}
+
+#more3 {display: none;}
+
+                          /* End Latest Blog Section*/
+
+                      /* Start shop by brand section  */
+
+
+.shop-brand {
+width: 80%;
+height:40%;
+}
+                            
+                            
+h3 {
+display: flex;
+flex-direction: row;
+}
+h3:before,
+h3:after {
+content: "";
+flex: 1 1;
+border-top: 2px solid #b2bec3;
+border-bottom: 2px solid #b2bec3;
+margin: auto;
+}
+
+
+.shop{
+    width: 100%;
+    height:30%;
+}
+
+
+.shop .row .brand{
+padding-left: 20px;
+font-size: 30px;
+
+color:var(--smoked-black);
+
+
+}
+
+
+.shop .row .brand:hover{
+    padding-left: 20px;
+    font-size: 30px;
+    
+ 
+    color:rgb(170, 116, 41);
+    
+    
+    }
+
+
+                        /* End shop by brand section  */
+
+
+
+                        /* Start Footer Section  */
+
+
+    .newsletter  .email-label{
+
+background-color: var(--smoked-black);
+color:var(--white-color);
+
+border:1px solid rgba(247, 241, 227,1.0);
+
+font-size: 13px;
+padding-left: 10px;
+    }
+
+
+::placeholder{
+
+    color:rgba(178, 190, 195,1.0);
+    font-size: .8em;
+}
+
+
+.btn-subs{
+
+
+    display:flex;
+    background-color:rgba(224, 86, 253,1.0);    border-radius: 0px;
+   
+    color: var(--white-color);
+    text-align: center;
+    font-size: 13px;
+  font-weight: bold;
+    width: 170px;
+    height: 25px;
+ 
+   padding: 0 40PX 0 40PX;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+
+}
+
+
+.footer-line   .navbar-text1{
+
+    font-size: 10px;
+    color:rgb(255, 246, 225);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      /* End Footer Section  */
